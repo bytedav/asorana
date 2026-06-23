@@ -6,7 +6,7 @@ import Logo from '@/components/logo';
 
 const Footer = () => {
   const links = {
-    product: ['Features', 'Pricing', 'API', 'Documentation'],
+    product: ['Servicios', 'Pricing', 'API', 'Documentation'],
     company: ['About', 'Blog', 'Careers', 'contacto'],
     support: ['Help Center', 'Community', 'Status', 'Security']
   };

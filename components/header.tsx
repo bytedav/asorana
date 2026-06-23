@@ -10,7 +10,7 @@ import { Sun, Moon } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Header = () => {
-  const navItems = ['Inicio', 'Features', 'Pricing', 'FAQ', 'contacto'];
+  const navItems = ['Inicio', 'Servicios', 'Pricing', 'FAQ', 'contacto'];
 
   const { resolvedTheme, setTheme } = useTheme();
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,7 +33,7 @@ const Header = () => {
       }
 
       // Track active section based on scroll position
-      const sections = ['features', 'how-it-works', 'pricing', 'faq', 'contacto'];
+      const sections = ['servicios', 'how-it-works', 'pricing', 'faq', 'contacto'];
       const scrollPosition = window.scrollY + 200;
       for (const section of sections) {
         const element = document.getElementById(section);
@@ -76,7 +76,7 @@ const Header = () => {
   const isActiveItem = (item: string) => {
     const sectionMap: { [key: string]: string } = {
       'Inicio': 'Inicio',
-      'Features': 'features',
+      'Servicios': 'servicios',
       'Pricing': 'pricing',
       'FAQ': 'faq',
       'contacto': 'contacto'

@@ -11,7 +11,7 @@ const FAQ = () => {
   const faqs = [
     {
       question: "What's included in the free trial?",
-      answer: "All plans include a 14-day free trial with full access to all features. No credit card required to start your trial."
+      answer: "All plans include a 14-day free trial with full access to all servicios. No credit card required to start your trial."
     },
     {
       question: "Can I change my plan anytime?",
@@ -23,7 +23,7 @@ const FAQ = () => {
     },
     {
       question: "Is there a setup fee?",
-      answer: "No, there are no setup fees or hidden costs. You only pay for your chosen plan, and the price includes everything listed in the features."
+      answer: "No, there are no setup fees or hidden costs. You only pay for your chosen plan, and the price includes everything listed in the servicios."
     },
     {
       question: "Do you offer refunds?",
@@ -39,7 +39,7 @@ const FAQ = () => {
     },
     {
       question: "Do you offer custom enterprise solutions?",
-      answer: "Absolutely! For large organizations with specific needs, we offer custom pricing and features. contacto our sales team to discuss your requirements."
+      answer: "Absolutely! For large organizations with specific needs, we offer custom pricing and servicios. contacto our sales team to discuss your requirements."
     }
   ];
 

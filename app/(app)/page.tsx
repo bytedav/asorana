@@ -4,7 +4,7 @@ import Header from '@/components/header';
 import Hero from '@/components/hero';
 import TrustedBrands from '@/components/trusted-brands';
 import HowItWorks from '@/components/how-it-works';
-import Features from '@/components/features';
+import Servicios from '@/components/servicios';
 import Testimonios from '@/components/testimonails';
 import Pricing from '@/components/pricing';
 import FAQ from '@/components/faq';
@@ -19,7 +19,7 @@ export default function Page() {
       <Hero />
       <TrustedBrands />
       <HowItWorks />
-      <Features />
+      <Servicios />
       <Testimonios />
       <Pricing />
       <FAQ />

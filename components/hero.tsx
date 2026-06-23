@@ -259,7 +259,7 @@ const Hero = () => {
             </Button>
 
             <Button size="lg" variant="outline" className="cursor-pointer hover:[&_svg]:-translate-y-1 w-46" asChild>
-              <Link href="#features"> 
+              <Link href="#servicios"> 
                 <Gift className="h-5 w-5 transition-transform opacity-60" />
                 Explorar
               </Link>                

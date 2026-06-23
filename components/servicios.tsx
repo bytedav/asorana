@@ -8,8 +8,8 @@ import { CustomSubtitle } from '@/components/custom/subtitle';
 import { Zap, Shield, BarChart3, Users } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
-const Features = () => {
-  const features = [
+const servicios = () => {
+  const servicios = [
     {
       id: 'task-automation',
       icon: Zap,
@@ -85,7 +85,7 @@ const Features = () => {
   ];
 
   return (
-    <section id="features" className="py-24 bg-background border-b border-border/50">
+    <section id="servicios" className="py-24 bg-background border-b border-border/50">
       <div className="container mx-auto px-6">
         <motion.div 
           initial={{ opacity: 0, y: 50 }}
@@ -93,22 +93,22 @@ const Features = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }} className="flex items-center justify-center flex-col text-center gap-5 mb-16">
           <CustomBadge>
-            Key Features
+            Servicios
           </CustomBadge>
 
           <CustomTitle>
-            Key Features
+            Servicios
           </CustomTitle>
           
           <CustomSubtitle>
-            Our platform provides all the tools and features you need to build, scale, 
+            Our platform provides all the tools and servicios you need to build, scale, 
             and optimize your business operations efficiently.
           </CustomSubtitle>
         </motion.div>
 
-        {/* Features Grid */}
+        {/* servicios Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-          {features.map((feature, index) => (
+          {servicios.map((feature, index) => (
             <motion.div
               key={feature.id}
               initial={{ opacity: 0, y: 30 }}
@@ -165,4 +165,4 @@ const Features = () => {
   );
 };
 
-export default Features;
+export default servicios;

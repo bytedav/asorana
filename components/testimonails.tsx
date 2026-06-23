@@ -17,7 +17,7 @@ const Testimonios = () => {
     {
       name: 'Marcus Johnson',
       role: 'CTO, InnovateLab',
-      content: 'Best decision we made. The AI features are game-changing.',
+      content: 'Best decision we made. The AI servicios are game-changing.',
       avatar: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=100&h=100&fit=crop&crop=face'
     },
     {
@@ -35,13 +35,13 @@ const Testimonios = () => {
     {
       name: 'Lisa Thompson',
       role: 'CMO, BrandForward',
-      content: 'The automation features saved us 40 hours per week.',
+      content: 'The automation servicios saved us 40 hours per week.',
       avatar: 'https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?w=100&h=100&fit=crop&crop=face'
     },
     {
       name: 'Alex Martinez',
       role: 'Director, FutureFlow',
-      content: 'Outstanding support and features. Perfect for scaling.',
+      content: 'Outstanding support and servicios. Perfect for scaling.',
       avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face'
     },
     {

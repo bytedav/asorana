@@ -22,7 +22,7 @@ const Pricing = () => {
       yearlyPrice: '$290',
       period: isYearly ? '/year' : '/month',
       description: 'Perfect for small teams getting started',
-      features: [
+      servicios: [
         'Up to 5 team members',
         '10GB storage',
         'Lightning workflows',
@@ -38,7 +38,7 @@ const Pricing = () => {
       yearlyPrice: '$990',
       period: isYearly ? '/year' : '/month',
       description: 'Ideal for growing businesses',
-      features: [
+      servicios: [
         'Up to 25 team members',
         '100GB storage',
         'Professional workflows',
@@ -56,7 +56,7 @@ const Pricing = () => {
       yearlyPrice: '$2990',
       period: isYearly ? '/year' : '/month',
       description: 'For large organizations with advanced needs',
-      features: [
+      servicios: [
         'Unlimited team members',
         '1TB storage',
         'Enterprise workflows',
@@ -174,7 +174,7 @@ const Pricing = () => {
 
                 <CardContent className="space-y-4">
                   <ul className="space-y-3">
-                    {plan.features.map((feature, featureIndex) => (
+                    {plan.servicios.map((feature, featureIndex) => (
                       <li key={featureIndex} className="flex items-center">
                         <Check className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
                         <span className="text-muted-foreground">{feature}</span>
